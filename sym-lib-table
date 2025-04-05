@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812-MINI-E")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/custom/SK6812-MINI-E.kicad_sym")(options "")(descr ""))
+  (lib (name "ssd1306-0.91-oled-4pin-128x32")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/custom/ssd1306-0.91-oled-4pin-128x32.kicad_sym")(options "")(descr ""))
+)

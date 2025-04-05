@@ -1,0 +1,3066 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d8b015d5-4e61-412d-9da1-5447b2629986")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SK6812-MINI-E:SK6812_MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at -10.922 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_MINI-E_1_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 6.35 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 30.48 26.67) (xy 30.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018b60ed-6fd1-4bb9-87e0-d8959b81a371")
+	)
+	(wire
+		(pts
+			(xy 73.66 156.21) (xy 73.66 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0254fe04-a133-4a7d-a48f-ff484f066d4d")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0678268b-b15f-4fab-a5c6-5edaa99f237d")
+	)
+	(wire
+		(pts
+			(xy 50.8 177.8) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d3ad8c-ad9d-4f16-b7a4-2d5cb4dba8fd")
+	)
+	(wire
+		(pts
+			(xy 30.48 17.78) (xy 48.26 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffc53d1-b14a-4fe3-9508-f3354fd5e82b")
+	)
+	(wire
+		(pts
+			(xy 91.44 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c33233-d090-405a-b7d8-f37bf917cd2a")
+	)
+	(wire
+		(pts
+			(xy 48.26 26.67) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190c4670-c0d8-4965-8b13-7b7b504da92a")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 91.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2167a6e2-b468-4359-a2aa-c7df53adc6a1")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2252f5dc-2c60-400e-a346-282bcbf91abc")
+	)
+	(wire
+		(pts
+			(xy 100.33 191.77) (xy 73.66 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aaa992-da4b-4677-99aa-a79c38b313d3")
+	)
+	(wire
+		(pts
+			(xy 30.48 113.03) (xy 30.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a7c2bf-87ea-465e-85d6-7aef08cf9ab4")
+	)
+	(wire
+		(pts
+			(xy 30.48 191.77) (xy 30.48 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aba69fe-36de-4e95-951c-e6d23e20ca3e")
+	)
+	(wire
+		(pts
+			(xy 91.44 48.26) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a95676-e058-4cba-958a-21f937103155")
+	)
+	(wire
+		(pts
+			(xy 30.48 168.91) (xy 48.26 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3672b632-4a48-43f5-b6d0-61eac611d608")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c74d7c-101e-4aba-9f8f-fb4ed48a795a")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ea2e33-07ba-415f-a681-50ead597dcf0")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372391ec-667b-4fee-83c4-04de139a10bf")
+	)
+	(wire
+		(pts
+			(xy 30.48 104.14) (xy 48.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c932280-8fb0-44d1-be18-d150a1d5dd24")
+	)
+	(wire
+		(pts
+			(xy 30.48 69.85) (xy 30.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9ac977-27f5-4085-bad7-472a317d6506")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4200ce4e-9fd5-47ee-8feb-ca6cb56f7183")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422405a1-7464-4f97-9f13-eaf59c4be1d3")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42354ed9-f1a8-4387-a137-924a83ae2657")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 93.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4832f004-526a-411b-a6a5-6c72e4956138")
+	)
+	(wire
+		(pts
+			(xy 91.44 17.78) (xy 57.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e76dcc3-3683-4fbb-b3df-8f399fc854e4")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3fb76a-e5d2-4b32-b3ea-e39985ca9a6d")
+	)
+	(wire
+		(pts
+			(xy 30.48 147.32) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f83fc36-d184-4546-8791-928f52b1c7c5")
+	)
+	(wire
+		(pts
+			(xy 73.66 168.91) (xy 91.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5208e4bd-c481-4d63-9275-560149b4563b")
+	)
+	(wire
+		(pts
+			(xy 134.62 17.78) (xy 134.62 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5241427c-e20b-4867-8d8e-0f677ecd64a2")
+	)
+	(wire
+		(pts
+			(xy 48.26 156.21) (xy 50.8 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2eb297-3a5f-459e-b9a0-61c014a2e616")
+	)
+	(wire
+		(pts
+			(xy 30.48 134.62) (xy 30.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607a7eb7-193b-44f8-9031-b05b4fbe593f")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 93.98 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6294ac72-66c5-446a-8693-3fc96e5667eb")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 91.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f50fae-df31-4f51-85bd-1f55cd6504d2")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.8) (xy 93.98 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667e8839-aab1-4e6c-b768-b13992c4bb5b")
+	)
+	(wire
+		(pts
+			(xy 93.98 113.03) (xy 93.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a303829-1bac-4005-af6a-185e699e8991")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be2647f-ebea-4689-8f46-7f6b592d7bfe")
+	)
+	(wire
+		(pts
+			(xy 48.26 82.55) (xy 48.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4a95a3-1de2-4474-b5e3-770c3d06a99b")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd5b262-9dde-4a19-b51c-468f7a401cd3")
+	)
+	(wire
+		(pts
+			(xy 93.98 134.62) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7308f402-1309-42b1-a956-ec42bcdeb13e")
+	)
+	(wire
+		(pts
+			(xy 50.8 156.21) (xy 50.8 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75240c63-2979-4fb2-9f02-59a69c5976ab")
+	)
+	(wire
+		(pts
+			(xy 48.26 134.62) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75462572-cc5b-43a9-b021-a8c90f2b3dab")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ad67b0-439a-4f18-a785-f038f955c3ae")
+	)
+	(wire
+		(pts
+			(xy 30.48 156.21) (xy 30.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76424b39-ec29-4f3b-acd8-db89a8038533")
+	)
+	(wire
+		(pts
+			(xy 48.26 147.32) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7718bd08-7c1f-4dbe-aab9-34be281cb75e")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaafed5-3e91-4dcb-91c7-69af58ef6bed")
+	)
+	(wire
+		(pts
+			(xy 57.15 191.77) (xy 30.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e983cf-6372-43e1-a3c7-5c79f0b53069")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847be125-7fbb-4476-9dac-0b319e06f98f")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 50.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887061bc-c074-4a7e-ab06-23870a134972")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89940a6b-32da-4ccb-b95c-64f3bbd0c1f3")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 137.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9c06c4-5633-4117-9e7a-4a4ee1dc99fa")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f47cca5-a11e-4f64-88e8-661787815e65")
+	)
+	(wire
+		(pts
+			(xy 48.26 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9de17b-b4cc-4cd1-bbf4-4f5c32e0c39a")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919e8b45-dd10-4c40-a24b-c8c3b34a6c4c")
+	)
+	(wire
+		(pts
+			(xy 137.16 26.67) (xy 137.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c681fd-268d-4ff5-809b-45e56fd6831e")
+	)
+	(wire
+		(pts
+			(xy 73.66 125.73) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933a0780-6cbf-49cf-bada-c5641aee997b")
+	)
+	(wire
+		(pts
+			(xy 48.26 60.96) (xy 48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97eaa8aa-1ea1-45d3-b55c-3a0e924d5d5f")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997c11b2-174a-4cdb-b2bf-06d4f7fb44c6")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 93.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3a1cb4-9db6-4d2c-8d3e-b28f14a22095")
+	)
+	(wire
+		(pts
+			(xy 48.26 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8c7a80-8c16-4d87-883d-f6dfa82b4f71")
+	)
+	(wire
+		(pts
+			(xy 48.26 168.91) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19bc24d-3e31-4f0e-9c1b-364fcd3d0e2d")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 93.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b297c2ec-7bde-4c58-99ff-8ea231c46cee")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 30.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f91faf-163d-45e3-9468-93cadb7444c1")
+	)
+	(wire
+		(pts
+			(xy 134.62 17.78) (xy 100.33 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb5878c-478e-4195-ae1d-d0973d9fc521")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd668c95-a682-4d5e-86bb-0e5ddcffb0a2")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0bf760-d2de-41c2-b737-fd57da51c964")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be116260-682d-4402-b8fc-caf73895a447")
+	)
+	(wire
+		(pts
+			(xy 30.48 91.44) (xy 30.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bd4adc-0a1d-447a-a563-466e086ec0e4")
+	)
+	(wire
+		(pts
+			(xy 100.33 17.78) (xy 100.33 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85d38d3-4485-485c-9d28-fc2a5cd4c241")
+	)
+	(wire
+		(pts
+			(xy 91.44 168.91) (xy 91.44 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9170ee-dbea-491a-bef0-4281135a0ab3")
+	)
+	(wire
+		(pts
+			(xy 73.66 191.77) (xy 73.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1bb01a-eb7a-44b9-94f1-eb3b2d096145")
+	)
+	(wire
+		(pts
+			(xy 57.15 17.78) (xy 57.15 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d559a061-fde7-4dc8-b8e6-4f48533771ec")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7721a8e-87ea-4d21-ad33-959514c1a3fe")
+	)
+	(wire
+		(pts
+			(xy 48.26 39.37) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29561b0-c3a0-484b-962b-972498d4e727")
+	)
+	(wire
+		(pts
+			(xy 30.48 82.55) (xy 48.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e339f392-b6b7-4a97-9ae9-4ecd03c3edbb")
+	)
+	(wire
+		(pts
+			(xy 91.44 125.73) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e479fd3e-1e30-4069-b86d-a03c5e31cc82")
+	)
+	(wire
+		(pts
+			(xy 48.26 17.78) (xy 48.26 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5709bc2-2146-4b68-8ab4-98a28d9feb47")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 91.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63e75e3-1c4e-4290-8f65-683c9551c11e")
+	)
+	(wire
+		(pts
+			(xy 50.8 134.62) (xy 50.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead5a769-9adb-4796-a73b-3ff5cf851e5a")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec33246c-4f90-49a1-a389-46a98b69025b")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbf9d8e-d3cd-41cf-8952-9a9f9e6ed219")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 48.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd3d824-8f59-49a7-bd82-2be779572fd1")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd1e938-12f8-4951-9371-2eb2f9e2dad1")
+	)
+	(wire
+		(pts
+			(xy 30.48 125.73) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1795608-8bdb-4988-af35-4a746d232e95")
+	)
+	(wire
+		(pts
+			(xy 91.44 177.8) (xy 93.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f249fa19-54f1-486c-8c28-f55ce19ad5ae")
+	)
+	(wire
+		(pts
+			(xy 93.98 26.67) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38add06-44d9-447f-bec3-119283fac687")
+	)
+	(wire
+		(pts
+			(xy 91.44 17.78) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e296e0-e802-4587-b8cf-4b899f0c1345")
+	)
+	(wire
+		(pts
+			(xy 91.44 39.37) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75cf395-d29d-42a9-9d0e-0df8b1c2a1cb")
+	)
+	(wire
+		(pts
+			(xy 30.48 60.96) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87aede1-e160-4954-97ec-977af83617c6")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc806e59-8b8d-47a5-bece-98d8b1782d96")
+	)
+	(rectangle
+		(start 15.24 13.97)
+		(end 139.7 193.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 877a4a2e-bbe9-4da0-b943-25cfcd3b4c6c)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0111839f-d779-4e38-b2a1-4179d2cc80ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 81.2414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 137.16 29.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "147c44b8-b9e9-4dea-aa00-0e9c089f7680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 38.0614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a8fb4bf-051d-4bc4-b99d-b58bf99f5a3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21bf5fd1-d9e3-4d09-bb48-2d16f64319e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 180.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24151c37-e382-4a29-9cfe-988255d03000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 189.1914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 180.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27134be2-30e3-4978-9d7c-b37e9fbcdf38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 189.1914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 29.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2970c91d-619a-459b-a7e7-4c0370e8ff7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 38.0614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f473693-2c50-4981-8152-50bd274a5bb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "337c7ebd-d9a7-4aae-9123-ab90ae94b9ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 116.84 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33ce20c7-8826-40b0-93e2-f35cfecbc3ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.9605 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3db2ddcd-d30e-4e51-8adc-790fade4c2f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c397bf9-b362-4fd1-90e7-702d3c78526c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 167.6014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e96ca68-5c05-4bfe-aced-d2185ac2dfc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71b89845-0c1a-40fc-86a0-20195f4cc4ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "744c31d0-6592-45d2-8ed8-d07e5b68e446")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 137.16 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "758bf02d-1da2-4ec9-bc12-d8f8c28103d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 146.0114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 29.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83b008c4-d689-4335-98f0-24a4764b2d79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 38.0614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 137.16 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85ae91c5-84e3-4880-9d00-391cdd027211")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 146.0114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8634172a-eb76-4725-9dda-0290bbb33efa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 102.8314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89d4d91c-bc23-447a-8fb1-7a7337425fde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 59.6514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e555683-1bfe-422a-9a26-273c2e3557c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ba18768-5faa-4785-926c-41cd98728b60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 102.8314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9804384-87af-4156-97f8-050c7b79fd49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 124.4214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab750fc2-a8c8-4d60-8cf1-ba7c60635a6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af1f92da-a35e-4e0d-a46e-d7665c866abb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DIN_L"
+		(shape input)
+		(at 30.48 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f99edc-8acf-4bdb-a394-4d259321ee2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.8791 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d22f2f90-5244-47c7-a4f3-39bba8ad4d61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 167.6014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d49a41c1-3e73-4775-9002-fa6786ed19a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d770927b-d62b-41fe-9125-f77e6b229704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edeb4f87-45b5-4180-92b9-4575f79c41b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 59.6514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 30.48 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eede1c6a-0d52-435e-a3be-c82a7cf0e2a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 50.8 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0ab455e-87a6-46bc-af18-989d61a5ce3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 81.2414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f26aaced-4ea2-48c2-bea6-a72def913578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 93.98 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6942f8f-1e7f-47c9-8550-b199ca62fb97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 124.4214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_L"
+		(shape input)
+		(at 73.66 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa44fd5f-3406-4d65-8f1e-633fef0d2088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7805 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "034a3f0a-d333-4ba9-bee2-c67fcfd0729b")
+		(property "Reference" "LED4"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d37d3d4d-5ac1-418b-b762-60e8c48795e8")
+		)
+		(pin "1"
+			(uuid "e4e20e02-541e-4e0b-84cd-82486c788efc")
+		)
+		(pin "2"
+			(uuid "dd27b7fc-954e-4328-a15f-0c11b48a3368")
+		)
+		(pin "4"
+			(uuid "9e1d8d6f-dc33-4cfd-8837-a1cc9538c6e0")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16eb37e0-47c4-426f-a5de-246c07159349")
+		(property "Reference" "LED9"
+			(at 82.55 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4384c9bd-87d2-4985-82c1-9351c038ec8b")
+		)
+		(pin "1"
+			(uuid "9cddcfe8-36ef-4880-8b3c-22f08eae8407")
+		)
+		(pin "2"
+			(uuid "890ec3f2-5df0-417b-971e-50c538680d71")
+		)
+		(pin "4"
+			(uuid "7e42213d-8dde-499f-9a25-7a50cbe657e4")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d335ce5-e1da-4eea-a085-10142be5d2dc")
+		(property "Reference" "LED12"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4321be86-fca4-4826-a8a7-63a638bd450a")
+		)
+		(pin "1"
+			(uuid "e3921902-ec9d-4ff9-b6b9-1f96aecf601b")
+		)
+		(pin "2"
+			(uuid "3c7925d7-ff49-41ec-8a53-e87c12c5874b")
+		)
+		(pin "4"
+			(uuid "c1d1f1aa-205a-49d3-8be6-31d51bf8b440")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ffbeec-a5e4-433a-916b-10dfcb889132")
+		(property "Reference" "LED14"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19ba83ab-5232-4195-a9c9-d660ce7d6a91")
+		)
+		(pin "1"
+			(uuid "9fee442b-add7-4cff-bff9-65c56542ef94")
+		)
+		(pin "2"
+			(uuid "ba0869be-f709-4ac8-a8a4-169b3a3f1196")
+		)
+		(pin "4"
+			(uuid "148cf2f4-035e-4bd4-9ec0-0c3066680476")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25aca04e-c023-45c5-9219-63837c9bd803")
+		(property "Reference" "LED5"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "104735dc-6f4c-4fc7-803f-d5522b5e3bb3")
+		)
+		(pin "1"
+			(uuid "12076b36-003a-48b8-b9ba-fbc61fd59f8f")
+		)
+		(pin "2"
+			(uuid "87395b8c-b784-4c25-9396-be96b038264e")
+		)
+		(pin "4"
+			(uuid "54386546-62bc-49d3-8383-36fba8ef4308")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646ac607-70fd-41aa-9779-1f4b012457fb")
+		(property "Reference" "LED16"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08a5f0f9-cf9d-48d8-b120-455db747cb4a")
+		)
+		(pin "1"
+			(uuid "265816c0-9e00-4ae9-ab99-3914e41753ff")
+		)
+		(pin "2"
+			(uuid "71f5533b-bdac-4520-8d1e-b2bb40d25bfd")
+		)
+		(pin "4"
+			(uuid "081d2899-a4ba-4989-a141-eeaa6be1092c")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a6d9d30-4b84-4d96-a00b-d4a947ab2146")
+		(property "Reference" "LED8"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da9760b3-66bd-4e62-97d9-493c92e3a207")
+		)
+		(pin "1"
+			(uuid "9e4eee5a-ca2b-4c56-ab00-e3aba6efc093")
+		)
+		(pin "2"
+			(uuid "f333ab89-c337-414a-8867-1cfdc2373367")
+		)
+		(pin "4"
+			(uuid "18f788f4-9001-4a5c-85c6-3f586fcd5502")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b76a816-b082-48e0-abb6-470da00d2561")
+		(property "Reference" "LED6"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d39b066-1da0-4577-b928-2ce76f443852")
+		)
+		(pin "1"
+			(uuid "e9de9403-2d84-4af3-8ace-ba99d61565bb")
+		)
+		(pin "2"
+			(uuid "49086d10-f573-48f4-8073-85cdd8c1c185")
+		)
+		(pin "4"
+			(uuid "d2f4c67c-006c-4bcd-9351-db2926a2f883")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c98c10-f71f-4bbe-83bc-16947643ad3a")
+		(property "Reference" "LED2"
+			(at 39.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "92568146-1d99-4815-8fec-8ab0a5c9bfd2")
+		)
+		(pin "1"
+			(uuid "b563761e-51c7-426d-b3c9-5396ac98d5ee")
+		)
+		(pin "2"
+			(uuid "33999d59-0c56-4bb1-b6a6-a6f748081c1f")
+		)
+		(pin "4"
+			(uuid "ce4e1830-0032-49bc-acb1-eabd14a32d2f")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c827a0-e335-4901-9152-0ca984409ff5")
+		(property "Reference" "LED1"
+			(at 39.37 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "23d4fbb7-218d-4805-a822-828d1bf89280")
+		)
+		(pin "1"
+			(uuid "b6101a07-c0fd-4885-8511-b15d3040e1cf")
+		)
+		(pin "2"
+			(uuid "af56eabc-6f3a-4ead-a0a7-527145d50139")
+		)
+		(pin "4"
+			(uuid "21ffaee3-1a3c-4746-b987-5cdd1d220531")
+		)
+		(instances
+			(project ""
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED1")
+					(unit 1)
+				)
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/9eac68ed-b1c9-423c-b373-bb7ebfbfad4b"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e78e87-d454-4fcb-9c3f-05a5c319aab3")
+		(property "Reference" "LED13"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d49ac4d5-3bc5-48f2-ae04-e2b450f354b5")
+		)
+		(pin "1"
+			(uuid "55eac7bd-336c-4170-b565-9095f32b2396")
+		)
+		(pin "2"
+			(uuid "e9bb5222-34a6-4bf8-b639-1491fda8cb10")
+		)
+		(pin "4"
+			(uuid "6b0fc05d-f954-42ba-a21d-0c9bd575d06c")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4cf6def-b355-49b4-9689-79148c55d47a")
+		(property "Reference" "LED15"
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48d5dbc9-59da-42ce-9fe5-c6bd52745b7b")
+		)
+		(pin "1"
+			(uuid "770a030d-af5b-4ad7-9e76-d9a96a7c826a")
+		)
+		(pin "2"
+			(uuid "c13d9e23-67e1-49cd-97a9-d07ac4a231dc")
+		)
+		(pin "4"
+			(uuid "3cb78a0c-8e4f-40ca-b3bf-713e9ecc9995")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b797858b-b787-4cb9-b3b5-d52d30700712")
+		(property "Reference" "LED3"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9ebf5670-e05f-4fdf-8a45-3c17ff319834")
+		)
+		(pin "1"
+			(uuid "70c4d45d-8a3f-47fd-aef6-f7ce99966c99")
+		)
+		(pin "2"
+			(uuid "ee5ae2b6-94f9-460a-be3d-20ebed1b18ac")
+		)
+		(pin "4"
+			(uuid "a7c6b9f5-e7c5-4ee8-af32-032d983b3d76")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef67e23b-d0e8-4516-87d7-5cdd67b93467")
+		(property "Reference" "LED10"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d9c3f96-a870-42ab-bda8-646fc5103bca")
+		)
+		(pin "1"
+			(uuid "d4b892b4-080e-4554-bd79-75d51aaeeb01")
+		)
+		(pin "2"
+			(uuid "dd4e4389-f775-4c77-86d9-9de7b701c123")
+		)
+		(pin "4"
+			(uuid "9434b99d-2bc8-46c4-a3af-8638a157ebf0")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 132.08 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18de929-65c2-436b-b6c7-7312b8ee459a")
+		(property "Reference" "LED17"
+			(at 125.73 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.73 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 116.84 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24fb557f-f407-45be-b3de-98c76f8e8058")
+		)
+		(pin "1"
+			(uuid "50f62414-2a69-43b3-afc0-d3ad757dd087")
+		)
+		(pin "2"
+			(uuid "7b21a0ad-159c-4362-9677-5d52030fd009")
+		)
+		(pin "4"
+			(uuid "1bf59087-48ff-4956-b7da-b124964b3359")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 45.72 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18eda8a-38ac-4bcf-b517-5210a319c432")
+		(property "Reference" "LED7"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d8eb2933-bf91-4641-b4be-3ddb0b5883e5")
+		)
+		(pin "1"
+			(uuid "9e06644a-8d2e-421f-b138-5d52abc85cfd")
+		)
+		(pin "2"
+			(uuid "5d7e1402-6036-4499-810c-201f9a192a98")
+		)
+		(pin "4"
+			(uuid "ed660e2d-c2dc-4d6c-a7eb-97aa894252bd")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812-MINI-E:SK6812_MINI-E")
+		(at 88.9 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb062abe-f5b7-4b97-98bf-4af10497a3d7")
+		(property "Reference" "LED11"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK6812-MINI-E"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a3e36e1b-d882-47a0-9d2c-80c59db1e95e")
+		)
+		(pin "1"
+			(uuid "3d58f3da-58ee-48d0-8753-4f373d9d3419")
+		)
+		(pin "2"
+			(uuid "6f74a079-8424-4a85-bace-4bfab5cc4512")
+		)
+		(pin "4"
+			(uuid "562142a3-5d52-4cae-a1d6-1d6d5c491ddf")
+		)
+		(instances
+			(project "termite"
+				(path "/ea0e27e3-be82-4797-b1f0-e0de8d74092c/812daca1-e4a6-42c1-8a0c-e1e09639962d"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

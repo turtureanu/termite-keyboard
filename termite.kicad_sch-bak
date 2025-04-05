@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ea0e27e3-be82-4797-b1f0-e0de8d74092c")
+	(paper "A4")
+	(lib_symbols)
+	(text "Parts used:\n\n- 2x Orpheus Pico\n\nLCSC:\n$0.41 (extra) - 5x Shenzhen Kinghelm Elec KH-PJ-320A-5.6 (https://is.gd/xXANfy)\n$3.03 (extra) - 35x SK6182 MINI-E LEDs (https://is.gd/4pP8OZ)\n\n\nAliExpress:\n$4.86 (extra) - 2x 0.91\" OLED displays (https://is.gd/RPHHSS)\n$15.85 (switches) - 35x Gateron Low Profile Switch 2.0 Blue (https://is.gd/8yOhCd)\n$17.68 (keycaps) - 40x transparent keycaps with black bed (https://is.gd/mA4DlK)"
+		(exclude_from_sim no)
+		(at 176.784 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "643f918d-6dc5-4a79-98ba-8c21516f3d80")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

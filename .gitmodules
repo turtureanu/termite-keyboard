@@ -1,0 +1,3 @@
+[submodule "project-libraries/Keebio-Parts.pretty"]
+	path = project-libraries/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
