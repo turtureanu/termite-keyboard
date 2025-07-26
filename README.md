@@ -30,6 +30,8 @@ I created this keyboard as a replacement for my laptop's keyboard, which might f
 ![Routing of the PCB](screenshots/pcb-routing.png)
 ![3D rendering of the PCB](screenshots/pcb-3d.png)
 
+> The gerber files can be found in pcb/gerber
+
 ## BOM
 
 | Name                                                                                                   | Sourcing   | Category  | Amount             | Price (total including shipping) |
@@ -59,6 +61,10 @@ Misc:
 - Jack connector: $0.1065 per jack connector
 
 Misc total: $12.85
+
+JLCPCB cost, if I were to order it myself: $30.04 total (for the entire keyboard, i.e. both halves)
+
+![JLCPCB checkout summary](screenshots/JLCPCB.png)
 
 ## Credits
 
