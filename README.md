@@ -6,7 +6,7 @@
 > Made for [Hackboard](https://hackpad.hackclub.com/keyboard), which requires having made a macropad as part of [Hackpad *V2*](https://hackpad.hackclub.com/). \
 > Here is my Hackpad V2 macropad: [Wirepad](https://github.com/turtureanu/hackpad/tree/main/hackpads/wirepad)
 
-This is a 34-key ortholinear split keyboard with built-in wrist supports and low-profile mechanical Cherry-MX type switches (Gateron). I use a TRRS cable to connect the two halves. The case is 3D printed and uses 5 M2 screws (four M2x12, one M2x4).
+This is a 34-key ortholinear split keyboard with built-in wrist supports, one 0.91" OLED display on each half, and low-profile mechanical Cherry-MX type switches (Gateron). I use a TRRS cable to connect the two halves. The case is 3D printed and uses 5 M2 screws (four M2x12, one M2x4).
 
 I created this keyboard as a replacement for my laptop's keyboard, which might fail soon. I wanted an ortholinear split keyboard with fewer keys that would fit the Engram keyboard layout. In the past I designed a similar keyboard with an 0.42" OLED display under each key (inspired by [PolyKybd Split 72](https://github.com/thpoll83/PolyKybd)), but I lost that design due to an accidental mass file deletion that BTRFS couldn't recover.
 
